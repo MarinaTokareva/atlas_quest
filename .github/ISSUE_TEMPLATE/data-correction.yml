@@ -1,0 +1,25 @@
+name: Data correction
+description: A capital, currency, flag or other fact in the app is wrong or out of date.
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep Atlas Quest accurate! **This request is public**, so please don't include personal information.
+  - type: input
+    id: country
+    attributes:
+      label: Country
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong, and what should it be?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to a reliable source for the correct information.

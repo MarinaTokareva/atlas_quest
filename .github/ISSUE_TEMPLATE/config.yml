@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help and FAQ
+    url: https://marinatokareva.github.io/atlas_quest/support.html
+    about: Answers to common questions about subscriptions, restoring purchases and progress.
+  - name: Refunds
+    url: https://reportaproblem.apple.com
+    about: Payments and refunds are handled by Apple.

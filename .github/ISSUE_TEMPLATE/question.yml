@@ -1,0 +1,14 @@
+name: Question
+description: Ask a question about Atlas Quest.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This request is public.** Please don't include your name, email address, Apple Account details or purchase receipts.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
